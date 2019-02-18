@@ -4,8 +4,10 @@ function onReady() {
   const toDoList = document.getElementById('toDoList');
 
 
+
 addToDoForm.addEventListener('submit', () => {
   event.preventDefault();
+
 
 
 
@@ -21,8 +23,10 @@ addToDoForm.addEventListener('submit', () => {
   // create delete button
   let deleteButton = document.createElement('button');
 
-  //create delete button text
-  let txt = document.createTextNode("Delete");
+ //add text to delete button
+  deleteButton.innerHTML = "Delete";
+
+
 
 
   // set the input's type to checkbox
