@@ -5,8 +5,16 @@ function onReady() {
 
 
 
+
 addToDoForm.addEventListener('submit', () => {
   event.preventDefault();
+
+deleteButton.addEventListener('click' () => {  
+};
+
+
+
+
 
 
 
@@ -25,9 +33,6 @@ addToDoForm.addEventListener('submit', () => {
 
  //add text to delete button
   deleteButton.innerHTML = "Delete";
-
-
-
 
   // set the input's type to checkbox
   checkbox.type = "checkbox";
